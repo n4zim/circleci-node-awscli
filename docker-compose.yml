@@ -1,0 +1,6 @@
+version: "3"
+services:
+  circleci-node-awscli:
+    image: n4zim/circleci-node-awscli:latest
+    build:
+      context: .
